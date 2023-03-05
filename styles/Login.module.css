@@ -1,0 +1,11 @@
+.formitems {
+    margin-bottom: 1rem;
+    max-width: 30rem;
+    
+}
+
+.container {
+    padding: 4rem;
+    background-color: aquamarine;
+    height: 100vh;
+}

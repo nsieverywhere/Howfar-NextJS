@@ -1,0 +1,62 @@
+.posts {
+    background-color:  lightslategrey;
+    height: 8rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;
+    border: 1px solid slategray;
+    position: relative;
+}
+
+.owner{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.userpost p {
+    color: white;
+}
+
+.userpost{
+    text-decoration: none;
+}
+
+.interaction {
+    position: absolute;
+    bottom: 0;
+}
+
+.interaction div{
+    display: inline-block;
+}
+
+.interactionset p{
+    display: inline-block;
+}
+
+.interactionset {
+    display: inline-block;
+    margin-right: 4rem;
+}
+
+.interactionbtn {
+    height: 1.7rem;
+    width: 1.7rem;
+    cursor: pointer;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    transition: opacity 300ms ease;
+    color: white;
+    opacity: 0.7;
+    margin-right: 0.3rem;
+}
+
+.interactionbtn:hover {
+    background-color: lightblue;
+    opacity: 1;
+
+}
+
+

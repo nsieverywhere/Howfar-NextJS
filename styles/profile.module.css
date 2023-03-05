@@ -1,0 +1,22 @@
+.container {
+    /* background-color: aquamarine; */
+    height: 100vh;
+    padding: 2rem;
+    
+
+}
+
+.details{
+    display:inline-flex;
+    margin-bottom: 2rem;
+    
+}
+
+.details h6 {
+    margin-right: 1rem;
+}
+
+.profilesection {
+    /* border: 2px solid aquamarine; */
+    border-radius: 1rem;
+}

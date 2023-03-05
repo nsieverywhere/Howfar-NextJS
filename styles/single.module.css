@@ -1,0 +1,96 @@
+.container {
+    height: 100vh;
+    padding: 2rem;
+
+}
+
+.dash {
+    /* border: 2px solid ; */
+    border-radius: 1rem;
+    padding: 0;
+}
+
+.postsection {
+    background-color: lightblue;
+    border: 1px solid rgb(147, 187, 201);
+    border-radius: .8rem;
+    /* padding: .5rem; */
+    text-align: right;
+}
+
+.post {
+    width: 100%;
+    border: #bdc1c2 1px solid;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(147, 187, 201);
+    background-color: white;
+    height: 5rem;
+    padding: 0.8rem;
+    resize: none;
+    height: 6rem;
+}
+
+.postbutton {
+    margin: .5rem;
+    border-radius: .6rem;
+    width: 5rem;
+}
+
+.single{
+    height: 15rem;
+    padding: 1rem; 
+    background-color: lightslategrey;
+    border-radius: 0.8rem;
+    border: 1px solid slategray;
+    color: white;
+    font-size:1.3rem;
+    position: relative;
+}
+
+.backbutton{
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    transition: opacity 300ms ease;
+    background-color: rgb(90, 103, 116);
+    opacity: 0.7;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0.3rem;
+    margin-bottom: .8rem;
+}
+
+.backbutton:hover {
+    background-color: rgb(64, 73, 82);
+    opacity: 1;
+}
+
+.interaction{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0.5rem;
+}
+
+.interaction div {
+    display: inline-block;
+    margin-right: 5rem;
+}
+
+.interactionbtn{
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 0.2rem;
+    transition: opacity 300ms ease;
+    color: white;
+    opacity: 0.7;
+}
+
+.interactionbtn:hover {
+    background-color: lightblue ;
+    opacity: 1;
+
+}

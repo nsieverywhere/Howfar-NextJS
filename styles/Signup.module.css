@@ -1,0 +1,19 @@
+.formitems{
+    margin-bottom: 1rem;
+    max-width: 30rem;
+}
+
+.container {
+    padding: 4rem;
+    background-color: aquamarine;
+    height: 100vh;
+}
+.names {
+    display: flex;
+    max-width: 30rem;
+}
+
+.namefield {
+    flex: 1;
+    margin-right: 1rem;
+}
