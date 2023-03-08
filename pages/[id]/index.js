@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 import Link from "next/link";
-import styles from "../../styles/home.module.css";
+import styles from "../../styles/Home.module.css";
 import Sidebar from "../../components/sidebar";
 import connectMongo from "../../utils/connectdb";
 import User from "../../models/usermodel";
