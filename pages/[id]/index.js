@@ -89,7 +89,6 @@ export const getServerSideProps = async (userid) => {
 
   let userData = await User.findOne({ _id: userid.params.id });
   let postData = await Post.find();
-  console.log(postData);
 
   return {
     props: {
