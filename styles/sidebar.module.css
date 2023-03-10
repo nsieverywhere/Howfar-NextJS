@@ -49,3 +49,37 @@
     display: inline;
     margin-right: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0;
+        height: 100vh;
+        border-radius: 0px;
+        padding-top: 1rem;
+    }
+    .container h5 {
+        display: none;
+    }
+
+.nav{
+    width: auto;
+    height: 3rem;
+    padding: 0.6rem;
+    text-align: center;
+    margin: .5rem;
+}
+.nav div{
+    display: none;
+}
+.signout{
+    width: 70%;
+    height: 3rem;
+
+
+}
+
+.signout p {
+    display: none;
+}
+
+}

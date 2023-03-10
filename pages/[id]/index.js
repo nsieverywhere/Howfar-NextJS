@@ -51,7 +51,7 @@ const Dashboard = ({ user, posts }) => {
   return (
     <div className={`container-fluid ${styles.container} `}>
       <div className="row">
-        <div className="col-lg-3">
+        <div className={`${styles.sidenav} col-lg-3 `}>
           <Sidebar userid={userid} user={user} />
         </div>
         <div className={`${styles.dash} col-lg-6  `}>
