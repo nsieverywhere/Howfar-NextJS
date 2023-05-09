@@ -4,9 +4,12 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouseChimney,
+  faBars,
+  faXmark,
   faUser,
   faGear,
   faArrowRightFromBracket,
+  faCancel,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = (props) => {
@@ -15,7 +18,10 @@ const Sidebar = (props) => {
 
   return (
     <div className={styles.container}>
+      <FontAwesomeIcon className={styles.bars} icon={faXmark} />
+
       <h5 className={styles.welcome}>Welcome {props.user.firstname}, </h5>
+
       <div className={styles.nav}>
         <Link
           className={styles.links}

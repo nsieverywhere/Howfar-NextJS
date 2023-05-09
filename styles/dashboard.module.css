@@ -57,3 +57,16 @@
 .content {
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .sidenav {
+        position: absolute;
+        z-index: 2;
+        width: 6rem;
+
+    }
+
+    .container {
+        padding: 0rem;
+    }
+}
